@@ -1,0 +1,20 @@
+ Question :- What is CDN? Why do we use it? 
+ Answer:- CDN stands for Content Delivery Network. It is a group of severs that are use to store Data 
+          and improve performace of website(help in loading scripts , HTML structure etc.).
+ 
+ Question :- Why react is called react ?
+ Answer:- It "reacts" quickly to changes without reloading the whole page.
+
+ Question :- What is difference between react.development.js and react.production.js files via CDN?
+ Answer:- The main difference between react.development.js and react.production.js is that the development 
+          version includes additional code for debugging and development tools, while the production version
+          is minified and optimized for performance.
+
+ Question :-  What is async and defer?
+ Answer:-  Async and defer are attributes in HTML that help load pages faster by downloading scripts in 
+           the background. 
+           Async = Async tells the browser to continue parsing HTML while the script is downloaded, and then
+                   executes the script as soon as it's downloaded.
+           
+           defer = Defer allows the browser to continue parsing HTML while the script is downloaded, and then executes 
+                   the script after the HTML parsing is complete. 
