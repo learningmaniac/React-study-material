@@ -1,0 +1,65 @@
+Question :- What is `NPM`?
+Answer :- NPM stands for Node Package Manager. It consiste of Nothing but pre-written Javascript code for 
+          Various Application. 
+          * It also help with installing this packages.
+          * Updateing to lastest version of a package.
+          * Manageing package versions and dependecies.
+
+Question :- What is `Parcel/Webpack`? Why do we need bundlers ?
+Answer :- They are both bundlers. They help deveplopers complexs project by combining various dependecies into 
+          single, optimized file that can be easily deployed. They do many more things dependeing on which bundlers
+          we are useing.
+          Bundler do Transpiling also (often refers to converting newer syntaxes into older versions to make them compatible
+                                       with older browsers).
+
+Question :- What is `.parcel-cache`?
+Answer :- '.parcel-cache' is a directory created by the Parcel bundler that stores intermediate build results as a cache. 
+        
+Question :-  What is `npx` ?
+Answer :- Npx, or Node Package Execute, is a utility that lets you run Node.js packages without installing them globally or locally. 
+
+Question :- What is difference between `dependencies` vs `devDependencies?
+Answer :- "dependencies": Packages required by your application in production.
+          "devDependencies": Packages that are only needed for local development and testing.
+
+Question :- What is Tree Shaking?
+Answer :- Tree shaking is a term commonly used within a JavaScript context to describe the removal of dead code.(Bundler do it for us.).    
+          When Parcel can determine which exports of a dynamically imported module you use, it will tree shake the unused exports from that module
+
+Question :- What is Hot Module Replacement?
+Answer :- The hot module replacement (HMR) docs on GitHub describe HMR as a feature that allows users to add, remove, or replace modules
+          while an application is running.
+
+Question :- List down your favourite 5 superpowers of Parcel and describe any 3 of them in your own words.
+Answer :- *Hot Module Replacement.       *Shared bundles
+          *Transpiling                   *Minification
+          *Tree shaking                  *Image optimization
+          *parcel-cache
+
+Question :- What is `.gitignore`? What should we add and not add into it? 
+Answer :- Later..
+
+Question :- What is the difference between `package.json` and `package-lock.json`?
+Answer :- package.json is a file that is created when we use npm init commond,the main porpuse of creating this file is 
+          to manage dependecies and devDependencies.It also contain script(build,start,entry etc).It contains Metadata(license,author,name,description etc).
+          It specify the Node.js version range that the project is compatible with,which help us to know the different version the project is 
+          compatible with.
+          package-lock.json
+          package-lock.json file contains a detailed description of entire dependecies tree, it ensure that all the enviroments have the same
+          version of dependecies installed.
+
+Question :- Why should I not modify `package-lock.json`?
+Answer :- This is just fullish.
+
+Question :- what is node modules ?  Is it a good idea to push that on git?  
+Answer :- This contains the detailed code of dependecies and subdependieces.
+          No it,is not a  good idea to push it in git,because it will inc. the size of repo.
+
+Question :- What is the `dist` folder?
+Answer :- This folder contains the final file after the bundler finshed his work.
+
+Question :-  What is `browserlists?
+Answer :- browerlists is a configuration in package.json, help user to specify on which browers project should work on.
+
+
+
